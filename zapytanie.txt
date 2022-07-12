@@ -1,1 +1,1 @@
-SELECT tresc, odpa, odpc, odpd FROM pytania
+SELECT * FROM pytania WHERE id=15
