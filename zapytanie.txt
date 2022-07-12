@@ -1,1 +1,16 @@
-SELECT * FROM pytania WHERE id=15
+SELECT * FROM pytania WHERE 
+(kategoria="programowanie" OR kategoria="systemy operacyjne i sieci") AND rok=2012
+-- SELECT * FROM pytania WHERE tresc LIKE "%C++%" OR odpa LIKE "%C++%" OR odpb LIKE "%C++%" OR odpc LIKE "%C++%" or odpd LIKE "%C++%"
+-- SELECT * FROM pytania WHERE tresc LIKE "%C++%"  
+-- SELECT * FROM pytania WHERE tresc LIKE "Jak%"  
+-- SELECT id, tresc FROM pytania WHERE id BETWEEN 10 AND 12
+-- SELECT id, tresc FROM pytania WHERE id>=10 AND id<=12
+-- SELECT * FROM pytania ORDER BY tresc ASC
+-- SELECT tresc, odpa, odpb, odpc, odpd FROM pytania WHERE rok=2010
+
+-- SELECT * FROM pytania WHERE 
+-- rok=2009 AND kategoria="programowanie"
+
+-- SELECT * FROM pytania WHERE rok=2007
+-- SELECT * FROM pytania WHERE answer="a"
+-- SELECT * FROM pytania WHERE id=15
